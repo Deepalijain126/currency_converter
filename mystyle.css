@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/free-photo/currency-exchange-board_1101-1186.jpg?1&w=900&t=st=1664899451~exp=1664900051~hmac=3254a86806020b06f89b21113e003e71476321bd2cd3dc84248345a7ca863cb8");
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    
+    
+    flex-direction: column;
+    Padding:1.5%;
+    border: solid 1px;
+    border-radius: 10px;
+   background-color: azure;
+
+}
+#currency-converter{
+    display: flex;
+    flex-direction: column;
+
+}
+#converter-btn{
+    background-color:orangered;
+}
